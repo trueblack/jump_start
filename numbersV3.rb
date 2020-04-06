@@ -1,5 +1,5 @@
 # ask user for count of numbers (how many times)
-puts "Hello user! Let's play a game. How many numbers would like to enter?"
+puts "Hello user! Let's play a game. How many numbers would you like to enter?"
 userTurns = gets.chomp.to_i
 # have user input positive integer value
 i = 0
