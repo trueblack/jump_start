@@ -50,6 +50,6 @@ userTurns.times do |i|
 end
 #divide the summed value by the number of elements in the array
 average = average / userTurns
-print "The minimum value in the array is #{minimum}.\n"    
+print "\nThe minimum value in the array is #{minimum}.\n"    
 print "The maximum value in the array is #{maximum}.\n"    
 print "The average of all the values is #{average}."    
