@@ -15,6 +15,7 @@ puts "Please provide five integer values from 12 to 21, inclusive:\n"
     puts "What's number #{i+1}?"
     first_hash[:user_input][i] = gets.chomp.to_i
 end
+# putting the arrays so i can double check the counts
 puts "#{first_hash[:random_numbers]}"
 puts "#{first_hash[:user_input]}"
 # create a second hash
