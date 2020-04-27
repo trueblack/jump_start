@@ -15,7 +15,8 @@ puts "Ok #{userName}, I'm thinking of a  number from 1-100. Can you guess it?"
     elsif userGuess == solution
         puts "Hey! Nice work #{userName}! You guessed my number in #{i} guesses."
         break
-    else
+    end
+    if i == 9 && userGuess != solution
         puts "Sorry. You weren't able to guess my number, #{solution}."
     end
 end
